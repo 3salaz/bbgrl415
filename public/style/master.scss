@@ -1,10 +1,14 @@
+// Base
 @import './reset';
+@import './variables';
 @import './base';
+
 @import './helpers';
 
 // COMPONENTS
 @import './components/1-navbar';
 @import './components/2-main';
+@import './components/3-footer';
 
 
 // PARTIALS

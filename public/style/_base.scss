@@ -5,8 +5,8 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	
-	background-color: #ffffff;
-	color: #333333;
+	background-color: $base-bg-color;
+	color: $base-txt-color;
 	margin: 35px 10px 40px 10px;
 }
 
@@ -20,11 +20,7 @@ a {
   text-decoration: none;
 }
 
-.container {
-    width: 100%;
-    max-width: 680px;
-    margin: 0 auto;
-}
+
 
 /* Header */
 
@@ -68,12 +64,4 @@ a {
 .link:hover {
     color: #3d3b3c;
     background-color: #fff;
-}
-
-
-/* Footer */
-
-footer img {
-  width: 150px;
-    padding-top: 40px;
 }
