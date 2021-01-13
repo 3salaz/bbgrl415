@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBGRL415</title>
-    <link rel="stylesheet" href="./style/master.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style/master.css">
+
 </head>
 
 <body>
@@ -29,6 +32,33 @@
     <footer class="footer">
         <img src="https://3salaz-media.s3-us-west-1.amazonaws.com/BBGRL415/bbgrl-logo.png" alt="Bbgrl Logo" />
     </footer>
-</body>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBaYh1BlGcIlaSGMhebvt4L5CfBYt5GON0",
+    authDomain: "bbgrl415.firebaseapp.com",
+    projectId: "bbgrl415",
+    storageBucket: "bbgrl415.appspot.com",
+    messagingSenderId: "120210377659",
+    appId: "1:120210377659:web:31bc89edcc80aa915bd29e",
+    measurementId: "G-5GF1MW85M5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
 </html>
