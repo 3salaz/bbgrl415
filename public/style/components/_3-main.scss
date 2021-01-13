@@ -1,10 +1,6 @@
-main{
-    
-}
+@import '../partials/socialButton';
 
-/* Links */
-
-main.link {
+.link {
     display: block;
     background-color: #3d3b3c;
     color: #fff;
@@ -17,7 +13,8 @@ main.link {
     border: 2px solid #3d3b3c;
 }
 
-main.link:hover {
+.link:hover {
     color: #3d3b3c;
+    background: none;
     background-color: #fff;
 }

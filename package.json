@@ -1,0 +1,22 @@
+{
+  "name": "bbgrl415-linktree",
+  "version": "1.0.0",
+  "description": "bbgrl linktree",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3salaz/bbgrl415.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "3salaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3salaz/bbgrl415/issues"
+  },
+  "homepage": "https://github.com/3salaz/bbgrl415#readme"
+}
